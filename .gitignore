@@ -92,3 +92,6 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# Environmental variables script
+env_vars.sh
