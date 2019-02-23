@@ -1,1 +1,29 @@
-OK
+{% extends 'skurcz_to/base.html' %}
+{% load static %}
+{% load bootstrap4 %}
+{% bootstrap_css %}
+{% bootstrap_javascript jquery='full' %}
+
+{% block content %}
+  <br>
+  <h1 id=skurcz-title class="text-center">Skurcz.to</h1>
+  <br>
+  <div class="jumbotron">
+    <form method="POST" class="form" id="url-form">
+      <h3 class="text-center">Paste a link to shorten it</h3>
+      <hr class="my-4">
+      {% csrf_token %}
+      {% bootstrap_form form layout='inline' %}
+      {% buttons %}
+  		<button type="submit" class="btn btn-primary" name="">Shorten URL</button>
+      {% endbuttons %}
+
+    </form>
+    <div class="invisible alert alert-success" id='short_url' role="alert">
+    </div>
+  </div>
+
+{% endblock %}
+{% block js %}
+  <script src="{% static 'skurcz_to/js/plugin.js' %}" type="text/javascript"></script>
+{% endblock %}
