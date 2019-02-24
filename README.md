@@ -2,12 +2,12 @@
 Recruitment task
 
 Przygotować aplikację skracającą URLe. Aplikacja ma za zadanie:
-• pobierać od (anonimowego) użytkownika URL
-• generować skrócony URL w formie `<twoja domena>/<skrót>`
-• podawać go użytkownikowi
-• w interfejsie admina ma być widoczna lista wszystkich URLi wraz z ich
+- pobierać od (anonimowego) użytkownika URL
+- generować skrócony URL w formie `<twoja domena>/<skrót>`
+- podawać go użytkownikowi
+- w interfejsie admina ma być widoczna lista wszystkich URLi wraz z ich
 wartością
-• po przejściu do `<twoja domena>/<skrót>` użytkownik ma być
+- po przejściu do `<twoja domena>/<skrót>` użytkownik ma być
 przekierowany na pierwotny adres podany do skrócenia.
 
 # Installation and launching locally
