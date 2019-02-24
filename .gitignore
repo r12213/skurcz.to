@@ -95,3 +95,5 @@ ENV/
 
 # Environmental variables script
 env_vars.sh
+
+db.sqlite3
