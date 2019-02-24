@@ -20,3 +20,8 @@ przekierowany na pierwotny adres podany do skrócenia.
 - runserver with `python manage.py runserver`
 - to launch tests run `python manage.py test`
 - to launch functional tests run `python functional_tests.py`
+
+
+# Live demo
+
+[http://skurcz.pythonanywhere.com](http://skurcz.pythonanywhere.com/)
